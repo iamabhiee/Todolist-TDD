@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import TodoList
 
 class ToDoItemTests: XCTestCase {
     
@@ -20,6 +21,25 @@ class ToDoItemTests: XCTestCase {
         super.tearDown()
     }
     
+    func testInit_ShouldTakeTitle() {
+        let item = ToDoItem(title : "Test title")
+        XCTAssertEqual(item.title, "Test title", "Initializer should set the item title")
+    }
     
+    func testInit_ShouldTakeTitleAndDescription() {
+        let item = ToDoItem(title : "Test title", itemDescription : "Test description")
+        XCTAssertEqual(item.itemDescription, "Test description", "Initializer should set the item description")
+    }
     
+    func testInit_ShouldTakeTitleDescriptionAndTimestamp() {
+        let item = ToDoItem(title : "Test title", itemDescription : "Test description", timestamp : 0.0)
+        XCTAssertEqual(item.timestamp, 0.0, "Initializer should set the item timestamp")
+    }
+    
+    func testInit_ShouldTakeTitleDescriptionTimestampAndLocation() {
+        let location = Location(name : "Test name")
+        
+        let item = ToDoItem(title : "Test title", itemDescription : "Test description", timestamp : 0.0, location : location)
+        XCTAssertEqual(location.name, item.location?.name, "Initializer should set the item location")
+    }
 }
