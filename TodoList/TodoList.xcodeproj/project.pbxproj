@@ -10,6 +10,7 @@
 		5D2541081D5EFA2300008F04 /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2541071D5EFA2300008F04 /* ToDoItemTests.swift */; };
 		5D25410B1D5EFBE700008F04 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25410A1D5EFBE700008F04 /* ToDoItem.swift */; };
 		5D25410D1D5F027A00008F04 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25410C1D5F027A00008F04 /* Location.swift */; };
+		5D2541111D5F048900008F04 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2541101D5F048900008F04 /* LocationTests.swift */; };
 		5DEC051D1D5E557A007F730F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC051C1D5E557A007F730F /* AppDelegate.swift */; };
 		5DEC051F1D5E557A007F730F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC051E1D5E557A007F730F /* ViewController.swift */; };
 		5DEC05221D5E557B007F730F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC05201D5E557B007F730F /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		5D2541071D5EFA2300008F04 /* ToDoItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemTests.swift; sourceTree = "<group>"; };
 		5D25410A1D5EFBE700008F04 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		5D25410C1D5F027A00008F04 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		5D2541101D5F048900008F04 /* LocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		5DEC05191D5E557A007F730F /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEC051C1D5E557A007F730F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DEC051E1D5E557A007F730F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				5DEC05331D5E557B007F730F /* Info.plist */,
 				5D2541071D5EFA2300008F04 /* ToDoItemTests.swift */,
+				5D2541101D5F048900008F04 /* LocationTests.swift */,
 			);
 			path = TodoListTests;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2541111D5F048900008F04 /* LocationTests.swift in Sources */,
 				5D2541081D5EFA2300008F04 /* ToDoItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
